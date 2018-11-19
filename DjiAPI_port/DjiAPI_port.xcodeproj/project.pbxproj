@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD74B01D21A24CDE001446BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B01C21A24CDE001446BD /* AppDelegate.m */; };
+		CD74B02021A24CDE001446BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B01F21A24CDE001446BD /* ViewController.m */; };
+		CD74B02321A24CDE001446BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02121A24CDE001446BD /* Main.storyboard */; };
+		CD74B02521A24CE0001446BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02421A24CE0001446BD /* Assets.xcassets */; };
+		CD74B02821A24CE0001446BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02621A24CE0001446BD /* LaunchScreen.storyboard */; };
+		CD74B02B21A24CE0001446BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B02A21A24CE0001446BD /* main.m */; };
+		CD74B03521A24CE0001446BD /* DjiAPI_portTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B03421A24CE0001446BD /* DjiAPI_portTests.m */; };
+		CD74B04021A24CE0001446BD /* DjiAPI_portUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B03F21A24CE0001446BD /* DjiAPI_portUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD74B03121A24CE0001446BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD74B01021A24CDE001446BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD74B01721A24CDE001446BD;
+			remoteInfo = DjiAPI_port;
+		};
+		CD74B03C21A24CE0001446BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD74B01021A24CDE001446BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD74B01721A24CDE001446BD;
+			remoteInfo = DjiAPI_port;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD74B01821A24CDE001446BD /* DjiAPI_port.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjiAPI_port.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74B01B21A24CDE001446BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD74B01C21A24CDE001446BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD74B01E21A24CDE001446BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD74B01F21A24CDE001446BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD74B02221A24CDE001446BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD74B02421A24CE0001446BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD74B02721A24CE0001446BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD74B02921A24CE0001446BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD74B02A21A24CE0001446BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD74B03021A24CE0001446BD /* DjiAPI_portTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjiAPI_portTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74B03421A24CE0001446BD /* DjiAPI_portTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjiAPI_portTests.m; sourceTree = "<group>"; };
+		CD74B03621A24CE0001446BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD74B03B21A24CE0001446BD /* DjiAPI_portUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjiAPI_portUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD74B03F21A24CE0001446BD /* DjiAPI_portUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjiAPI_portUITests.m; sourceTree = "<group>"; };
+		CD74B04121A24CE0001446BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD74B01521A24CDE001446BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B02D21A24CE0001446BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B03821A24CE0001446BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD74B00F21A24CDE001446BD = {
+			isa = PBXGroup;
+			children = (
+				CD74B01A21A24CDE001446BD /* DjiAPI_port */,
+				CD74B03321A24CE0001446BD /* DjiAPI_portTests */,
+				CD74B03E21A24CE0001446BD /* DjiAPI_portUITests */,
+				CD74B01921A24CDE001446BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD74B01921A24CDE001446BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD74B01821A24CDE001446BD /* DjiAPI_port.app */,
+				CD74B03021A24CE0001446BD /* DjiAPI_portTests.xctest */,
+				CD74B03B21A24CE0001446BD /* DjiAPI_portUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD74B01A21A24CDE001446BD /* DjiAPI_port */ = {
+			isa = PBXGroup;
+			children = (
+				CD74B01B21A24CDE001446BD /* AppDelegate.h */,
+				CD74B01C21A24CDE001446BD /* AppDelegate.m */,
+				CD74B01E21A24CDE001446BD /* ViewController.h */,
+				CD74B01F21A24CDE001446BD /* ViewController.m */,
+				CD74B02121A24CDE001446BD /* Main.storyboard */,
+				CD74B02421A24CE0001446BD /* Assets.xcassets */,
+				CD74B02621A24CE0001446BD /* LaunchScreen.storyboard */,
+				CD74B02921A24CE0001446BD /* Info.plist */,
+				CD74B02A21A24CE0001446BD /* main.m */,
+			);
+			path = DjiAPI_port;
+			sourceTree = "<group>";
+		};
+		CD74B03321A24CE0001446BD /* DjiAPI_portTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD74B03421A24CE0001446BD /* DjiAPI_portTests.m */,
+				CD74B03621A24CE0001446BD /* Info.plist */,
+			);
+			path = DjiAPI_portTests;
+			sourceTree = "<group>";
+		};
+		CD74B03E21A24CE0001446BD /* DjiAPI_portUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD74B03F21A24CE0001446BD /* DjiAPI_portUITests.m */,
+				CD74B04121A24CE0001446BD /* Info.plist */,
+			);
+			path = DjiAPI_portUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD74B01721A24CDE001446BD /* DjiAPI_port */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD74B04421A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_port" */;
+			buildPhases = (
+				CD74B01421A24CDE001446BD /* Sources */,
+				CD74B01521A24CDE001446BD /* Frameworks */,
+				CD74B01621A24CDE001446BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DjiAPI_port;
+			productName = DjiAPI_port;
+			productReference = CD74B01821A24CDE001446BD /* DjiAPI_port.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD74B02F21A24CE0001446BD /* DjiAPI_portTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD74B04721A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_portTests" */;
+			buildPhases = (
+				CD74B02C21A24CE0001446BD /* Sources */,
+				CD74B02D21A24CE0001446BD /* Frameworks */,
+				CD74B02E21A24CE0001446BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD74B03221A24CE0001446BD /* PBXTargetDependency */,
+			);
+			name = DjiAPI_portTests;
+			productName = DjiAPI_portTests;
+			productReference = CD74B03021A24CE0001446BD /* DjiAPI_portTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD74B03A21A24CE0001446BD /* DjiAPI_portUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD74B04A21A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_portUITests" */;
+			buildPhases = (
+				CD74B03721A24CE0001446BD /* Sources */,
+				CD74B03821A24CE0001446BD /* Frameworks */,
+				CD74B03921A24CE0001446BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD74B03D21A24CE0001446BD /* PBXTargetDependency */,
+			);
+			name = DjiAPI_portUITests;
+			productName = DjiAPI_portUITests;
+			productReference = CD74B03B21A24CE0001446BD /* DjiAPI_portUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD74B01021A24CDE001446BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xujiahui;
+				TargetAttributes = {
+					CD74B01721A24CDE001446BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CD74B02F21A24CE0001446BD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD74B01721A24CDE001446BD;
+					};
+					CD74B03A21A24CE0001446BD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD74B01721A24CDE001446BD;
+					};
+				};
+			};
+			buildConfigurationList = CD74B01321A24CDE001446BD /* Build configuration list for PBXProject "DjiAPI_port" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD74B00F21A24CDE001446BD;
+			productRefGroup = CD74B01921A24CDE001446BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD74B01721A24CDE001446BD /* DjiAPI_port */,
+				CD74B02F21A24CE0001446BD /* DjiAPI_portTests */,
+				CD74B03A21A24CE0001446BD /* DjiAPI_portUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD74B01621A24CDE001446BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74B02821A24CE0001446BD /* LaunchScreen.storyboard in Resources */,
+				CD74B02521A24CE0001446BD /* Assets.xcassets in Resources */,
+				CD74B02321A24CDE001446BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B02E21A24CE0001446BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B03921A24CE0001446BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD74B01421A24CDE001446BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74B02021A24CDE001446BD /* ViewController.m in Sources */,
+				CD74B02B21A24CE0001446BD /* main.m in Sources */,
+				CD74B01D21A24CDE001446BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B02C21A24CE0001446BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74B03521A24CE0001446BD /* DjiAPI_portTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD74B03721A24CE0001446BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD74B04021A24CE0001446BD /* DjiAPI_portUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD74B03221A24CE0001446BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD74B01721A24CDE001446BD /* DjiAPI_port */;
+			targetProxy = CD74B03121A24CE0001446BD /* PBXContainerItemProxy */;
+		};
+		CD74B03D21A24CE0001446BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD74B01721A24CDE001446BD /* DjiAPI_port */;
+			targetProxy = CD74B03C21A24CE0001446BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD74B02121A24CDE001446BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD74B02221A24CDE001446BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD74B02621A24CE0001446BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD74B02721A24CE0001446BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD74B04221A24CE0001446BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD74B04321A24CE0001446BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD74B04521A24CE0001446BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_port/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-port";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD74B04621A24CE0001446BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_port/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-port";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD74B04821A24CE0001446BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_portTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-portTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DjiAPI_port.app/DjiAPI_port";
+			};
+			name = Debug;
+		};
+		CD74B04921A24CE0001446BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_portTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-portTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DjiAPI_port.app/DjiAPI_port";
+			};
+			name = Release;
+		};
+		CD74B04B21A24CE0001446BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_portUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-portUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DjiAPI_port;
+			};
+			name = Debug;
+		};
+		CD74B04C21A24CE0001446BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = DjiAPI_portUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-portUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DjiAPI_port;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD74B01321A24CDE001446BD /* Build configuration list for PBXProject "DjiAPI_port" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74B04221A24CE0001446BD /* Debug */,
+				CD74B04321A24CE0001446BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD74B04421A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_port" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74B04521A24CE0001446BD /* Debug */,
+				CD74B04621A24CE0001446BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD74B04721A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_portTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74B04821A24CE0001446BD /* Debug */,
+				CD74B04921A24CE0001446BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD74B04A21A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_portUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD74B04B21A24CE0001446BD /* Debug */,
+				CD74B04C21A24CE0001446BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD74B01021A24CDE001446BD /* Project object */;
+}
