@@ -21,6 +21,7 @@
     // Override point for customization after application launch.
     
 
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     FamilyNavigationController *home = [[FamilyNavigationController alloc]initWithRootViewController:[[HomeViewController alloc]init]];
@@ -34,6 +35,7 @@
     [Bugly startWithAppId:BuglyAppID];
     [Bugly setUserIdentifier:@"xsy"];
     
+
     return YES;
 }
 
