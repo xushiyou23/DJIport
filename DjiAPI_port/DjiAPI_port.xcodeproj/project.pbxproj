@@ -292,8 +292,8 @@
 				CD74B01421A24CDE001446BD /* Sources */,
 				CD74B01521A24CDE001446BD /* Frameworks */,
 				CD74B01621A24CDE001446BD /* Resources */,
-				32524DC595311D7884EC43BE /* [CP] Embed Pods Frameworks */,
 				BEAB255F8EC934DA7AF2212A /* [CP] Copy Pods Resources */,
+				CD6B73811C05A9FED9BC8981 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -411,24 +411,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32524DC595311D7884EC43BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh",
-				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5AB849F43AFEF51C640D5C01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,6 +447,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6B73811C05A9FED9BC8981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
