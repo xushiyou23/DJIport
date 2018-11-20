@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CD74B01D21A24CDE001446BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B01C21A24CDE001446BD /* AppDelegate.m */; };
-		CD74B02021A24CDE001446BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B01F21A24CDE001446BD /* ViewController.m */; };
 		CD74B02321A24CDE001446BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02121A24CDE001446BD /* Main.storyboard */; };
 		CD74B02521A24CE0001446BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02421A24CE0001446BD /* Assets.xcassets */; };
 		CD74B02821A24CE0001446BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74B02621A24CE0001446BD /* LaunchScreen.storyboard */; };
 		CD74B02B21A24CE0001446BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B02A21A24CE0001446BD /* main.m */; };
 		CD74B03521A24CE0001446BD /* DjiAPI_portTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B03421A24CE0001446BD /* DjiAPI_portTests.m */; };
 		CD74B04021A24CE0001446BD /* DjiAPI_portUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74B03F21A24CE0001446BD /* DjiAPI_portUITests.m */; };
+		CD9D0A8D21A256E6002ACAE5 /* UIViewPopAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0A8C21A256E6002ACAE5 /* UIViewPopAlert.m */; };
+		CD9D0AC121A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AC021A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		CD9D0AC421A25C6C002ACAE5 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AC221A25C6C002ACAE5 /* MBProgressHUD+Extension.m */; };
+		CD9D0ACD21A25C90002ACAE5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AC521A25C8E002ACAE5 /* UIColor+Hex.m */; };
+		CD9D0ACE21A25C90002ACAE5 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AC621A25C8E002ACAE5 /* MBProgressHUD+Extension.m */; };
+		CD9D0ACF21A25C90002ACAE5 /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AC921A25C8F002ACAE5 /* myButton.m */; };
+		CD9D0AD021A25C90002ACAE5 /* myLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0ACC21A25C90002ACAE5 /* myLabel.m */; };
+		CD9D0AD321A25CBB002ACAE5 /* LocalPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AD121A25CBB002ACAE5 /* LocalPushNotification.m */; };
+		CD9D0AD621A25EE1002ACAE5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AD421A25EE1002ACAE5 /* RootViewController.m */; };
+		CD9D0AD921A26024002ACAE5 /* FamilyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AD721A26024002ACAE5 /* FamilyNavigationController.m */; };
+		CD9D0AE121A26161002ACAE5 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AE021A26161002ACAE5 /* UIImage+Scale.m */; };
+		CD9D0AE421A261C0002ACAE5 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AE321A261C0002ACAE5 /* UIViewExt.m */; };
+		CD9D0AE721A264FC002ACAE5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AE621A264FC002ACAE5 /* HomeViewController.m */; };
+		CD9D0AEB21A28036002ACAE5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9D0AEA21A28036002ACAE5 /* HomeViewController.xib */; };
+		F2B95D4CEB0B5D136DD692BA /* libPods-DjiAPI_port.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F18C49270B7757449D08B33 /* libPods-DjiAPI_port.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F18C49270B7757449D08B33 /* libPods-DjiAPI_port.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DjiAPI_port.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC02B0D676FBACBBCB0E2E2 /* Pods-DjiAPI_port.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DjiAPI_port.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port.debug.xcconfig"; sourceTree = "<group>"; };
+		636A46DCC345C7F80C7BDBF7 /* Pods-DjiAPI_port.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DjiAPI_port.release.xcconfig"; path = "Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port.release.xcconfig"; sourceTree = "<group>"; };
 		CD74B01821A24CDE001446BD /* DjiAPI_port.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjiAPI_port.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74B01B21A24CDE001446BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD74B01C21A24CDE001446BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD74B01E21A24CDE001446BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD74B01F21A24CDE001446BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD74B02221A24CDE001446BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD74B02421A24CE0001446BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74B02721A24CE0001446BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,36 @@
 		CD74B03B21A24CE0001446BD /* DjiAPI_portUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjiAPI_portUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74B03F21A24CE0001446BD /* DjiAPI_portUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjiAPI_portUITests.m; sourceTree = "<group>"; };
 		CD74B04121A24CE0001446BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9D0A8B21A256E6002ACAE5 /* UIViewPopAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPopAlert.h; sourceTree = "<group>"; };
+		CD9D0A8C21A256E6002ACAE5 /* UIViewPopAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewPopAlert.m; sourceTree = "<group>"; };
+		CD9D0ABC21A25761002ACAE5 /* StringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringText.h; sourceTree = "<group>"; };
+		CD9D0ABD21A25761002ACAE5 /* ColorImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorImageSize.h; sourceTree = "<group>"; };
+		CD9D0ABE21A2588F002ACAE5 /* DjiPort_PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DjiPort_PCH.pch; sourceTree = "<group>"; };
+		CD9D0ABF21A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		CD9D0AC021A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		CD9D0AC221A25C6C002ACAE5 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		CD9D0AC321A25C6C002ACAE5 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		CD9D0AC521A25C8E002ACAE5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		CD9D0AC621A25C8E002ACAE5 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+Extension.m"; path = "../../../../../../../Desktop/iosAirSpase/AirspaceProject/AirspaceProject/Tools/ViewAndController/MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		CD9D0AC721A25C8F002ACAE5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		CD9D0AC821A25C8F002ACAE5 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+Extension.h"; path = "../../../../../../../Desktop/iosAirSpase/AirspaceProject/AirspaceProject/Tools/ViewAndController/MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		CD9D0AC921A25C8F002ACAE5 /* myButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myButton.m; sourceTree = "<group>"; };
+		CD9D0ACA21A25C8F002ACAE5 /* myButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myButton.h; sourceTree = "<group>"; };
+		CD9D0ACB21A25C8F002ACAE5 /* myLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLabel.h; sourceTree = "<group>"; };
+		CD9D0ACC21A25C90002ACAE5 /* myLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLabel.m; sourceTree = "<group>"; };
+		CD9D0AD121A25CBB002ACAE5 /* LocalPushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPushNotification.m; sourceTree = "<group>"; };
+		CD9D0AD221A25CBB002ACAE5 /* LocalPushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPushNotification.h; sourceTree = "<group>"; };
+		CD9D0AD421A25EE1002ACAE5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CD9D0AD521A25EE1002ACAE5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CD9D0AD721A26024002ACAE5 /* FamilyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyNavigationController.m; sourceTree = "<group>"; };
+		CD9D0AD821A26024002ACAE5 /* FamilyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyNavigationController.h; sourceTree = "<group>"; };
+		CD9D0ADF21A26161002ACAE5 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		CD9D0AE021A26161002ACAE5 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		CD9D0AE221A261BF002ACAE5 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		CD9D0AE321A261C0002ACAE5 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		CD9D0AE521A264FC002ACAE5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CD9D0AE621A264FC002ACAE5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CD9D0AEA21A28036002ACAE5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B95D4CEB0B5D136DD692BA /* libPods-DjiAPI_port.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +131,8 @@
 				CD74B03321A24CE0001446BD /* DjiAPI_portTests */,
 				CD74B03E21A24CE0001446BD /* DjiAPI_portUITests */,
 				CD74B01921A24CDE001446BD /* Products */,
+				EADA35C15725DE4C74D1C6FF /* Pods */,
+				F20CFDAD164A0F889C9A63A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +149,14 @@
 		CD74B01A21A24CDE001446BD /* DjiAPI_port */ = {
 			isa = PBXGroup;
 			children = (
+				CD9D0ADE21A26053002ACAE5 /* Root */,
+				CD9D0ADD21A26047002ACAE5 /* Home */,
+				CD9D0A8921A25696002ACAE5 /* Tools */,
 				CD74B01B21A24CDE001446BD /* AppDelegate.h */,
 				CD74B01C21A24CDE001446BD /* AppDelegate.m */,
-				CD74B01E21A24CDE001446BD /* ViewController.h */,
-				CD74B01F21A24CDE001446BD /* ViewController.m */,
+				CD9D0ABE21A2588F002ACAE5 /* DjiPort_PCH.pch */,
+				CD9D0ABD21A25761002ACAE5 /* ColorImageSize.h */,
+				CD9D0ABC21A25761002ACAE5 /* StringText.h */,
 				CD74B02121A24CDE001446BD /* Main.storyboard */,
 				CD74B02421A24CE0001446BD /* Assets.xcassets */,
 				CD74B02621A24CE0001446BD /* LaunchScreen.storyboard */,
@@ -132,6 +184,103 @@
 			path = DjiAPI_portUITests;
 			sourceTree = "<group>";
 		};
+		CD9D0A8921A25696002ACAE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AD221A25CBB002ACAE5 /* LocalPushNotification.h */,
+				CD9D0AD121A25CBB002ACAE5 /* LocalPushNotification.m */,
+				CD9D0A8A21A256DC002ACAE5 /* UI */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD9D0A8A21A256DC002ACAE5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AE221A261BF002ACAE5 /* UIViewExt.h */,
+				CD9D0AE321A261C0002ACAE5 /* UIViewExt.m */,
+				CD9D0ADF21A26161002ACAE5 /* UIImage+Scale.h */,
+				CD9D0AE021A26161002ACAE5 /* UIImage+Scale.m */,
+				CD9D0AC321A25C6C002ACAE5 /* MBProgressHUD+Extension.h */,
+				CD9D0AC821A25C8F002ACAE5 /* MBProgressHUD+Extension.h */,
+				CD9D0AC221A25C6C002ACAE5 /* MBProgressHUD+Extension.m */,
+				CD9D0AC621A25C8E002ACAE5 /* MBProgressHUD+Extension.m */,
+				CD9D0ACA21A25C8F002ACAE5 /* myButton.h */,
+				CD9D0AC921A25C8F002ACAE5 /* myButton.m */,
+				CD9D0ACB21A25C8F002ACAE5 /* myLabel.h */,
+				CD9D0ACC21A25C90002ACAE5 /* myLabel.m */,
+				CD9D0AC721A25C8F002ACAE5 /* UIColor+Hex.h */,
+				CD9D0AC521A25C8E002ACAE5 /* UIColor+Hex.m */,
+				CD9D0A8B21A256E6002ACAE5 /* UIViewPopAlert.h */,
+				CD9D0A8C21A256E6002ACAE5 /* UIViewPopAlert.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CD9D0ADA21A2602B002ACAE5 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CD9D0ADB21A26037002ACAE5 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CD9D0ADC21A26042002ACAE5 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AE521A264FC002ACAE5 /* HomeViewController.h */,
+				CD9D0AE621A264FC002ACAE5 /* HomeViewController.m */,
+				CD9D0AEA21A28036002ACAE5 /* HomeViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CD9D0ADD21A26047002ACAE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0ADC21A26042002ACAE5 /* C */,
+				CD9D0ADB21A26037002ACAE5 /* M */,
+				CD9D0ADA21A2602B002ACAE5 /* V */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD9D0ADE21A26053002ACAE5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AD821A26024002ACAE5 /* FamilyNavigationController.h */,
+				CD9D0AD721A26024002ACAE5 /* FamilyNavigationController.m */,
+				CD9D0ABF21A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.h */,
+				CD9D0AC021A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.m */,
+				CD9D0AD521A25EE1002ACAE5 /* RootViewController.h */,
+				CD9D0AD421A25EE1002ACAE5 /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		EADA35C15725DE4C74D1C6FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DC02B0D676FBACBBCB0E2E2 /* Pods-DjiAPI_port.debug.xcconfig */,
+				636A46DCC345C7F80C7BDBF7 /* Pods-DjiAPI_port.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F20CFDAD164A0F889C9A63A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F18C49270B7757449D08B33 /* libPods-DjiAPI_port.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD74B04421A24CE0001446BD /* Build configuration list for PBXNativeTarget "DjiAPI_port" */;
 			buildPhases = (
+				5AB849F43AFEF51C640D5C01 /* [CP] Check Pods Manifest.lock */,
 				CD74B01421A24CDE001446BD /* Sources */,
 				CD74B01521A24CDE001446BD /* Frameworks */,
 				CD74B01621A24CDE001446BD /* Resources */,
+				32524DC595311D7884EC43BE /* [CP] Embed Pods Frameworks */,
+				BEAB255F8EC934DA7AF2212A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +390,7 @@
 				CD74B02821A24CE0001446BD /* LaunchScreen.storyboard in Resources */,
 				CD74B02521A24CE0001446BD /* Assets.xcassets in Resources */,
 				CD74B02321A24CDE001446BD /* Main.storyboard in Resources */,
+				CD9D0AEB21A28036002ACAE5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +410,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32524DC595311D7884EC43BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB849F43AFEF51C640D5C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DjiAPI_port-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAB255F8EC934DA7AF2212A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DjiAPI_port/Pods-DjiAPI_port-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD74B01421A24CDE001446BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD74B02021A24CDE001446BD /* ViewController.m in Sources */,
+				CD9D0AE121A26161002ACAE5 /* UIImage+Scale.m in Sources */,
+				CD9D0ACF21A25C90002ACAE5 /* myButton.m in Sources */,
+				CD9D0AC121A25C5F002ACAE5 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				CD9D0AD621A25EE1002ACAE5 /* RootViewController.m in Sources */,
+				CD9D0ACE21A25C90002ACAE5 /* MBProgressHUD+Extension.m in Sources */,
+				CD9D0AD321A25CBB002ACAE5 /* LocalPushNotification.m in Sources */,
+				CD9D0AD921A26024002ACAE5 /* FamilyNavigationController.m in Sources */,
+				CD9D0AE721A264FC002ACAE5 /* HomeViewController.m in Sources */,
+				CD9D0AE421A261C0002ACAE5 /* UIViewExt.m in Sources */,
 				CD74B02B21A24CE0001446BD /* main.m in Sources */,
 				CD74B01D21A24CDE001446BD /* AppDelegate.m in Sources */,
+				CD9D0ACD21A25C90002ACAE5 /* UIColor+Hex.m in Sources */,
+				CD9D0A8D21A256E6002ACAE5 /* UIViewPopAlert.m in Sources */,
+				CD9D0AD021A25C90002ACAE5 /* myLabel.m in Sources */,
+				CD9D0AC421A25C6C002ACAE5 /* MBProgressHUD+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,35 +657,43 @@
 		};
 		CD74B04521A24CE0001446BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC02B0D676FBACBBCB0E2E2 /* Pods-DjiAPI_port.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DjiAPI_port/DjiPort_PCH.pch";
 				INFOPLIST_FILE = DjiAPI_port/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-port";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CD74B04621A24CE0001446BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636A46DCC345C7F80C7BDBF7 /* Pods-DjiAPI_port.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DjiAPI_port/DjiPort_PCH.pch";
 				INFOPLIST_FILE = DjiAPI_port/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.DjiAPI-port";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

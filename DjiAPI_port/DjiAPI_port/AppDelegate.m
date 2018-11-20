@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Bugly/Bugly.h>
+#import <IQKeyboardManager.h>
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    FamilyNavigationController *home = [[FamilyNavigationController alloc]initWithRootViewController:[[HomeViewController alloc]init]];
+    self.window.rootViewController = home;
+    
+    
+    IQKeyboardManager *keyboardManager = [IQKeyboardManager sharedManager]; // 获取类库的单例变量
+    keyboardManager.shouldResignOnTouchOutside = YES; // 控制点击背景是否收起键盘
+    keyboardManager.enableAutoToolbar = NO;
+    
+    [Bugly startWithAppId:BuglyAppID];
+    [Bugly setUserIdentifier:@"xsy"];
+    
     return YES;
 }
 

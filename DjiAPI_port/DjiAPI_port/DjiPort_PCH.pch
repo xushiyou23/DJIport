@@ -1,0 +1,55 @@
+//
+//  DjiPort_PCH.pch
+//  DjiAPI_port
+//
+//  Created by xujiahui on 2018/11/19.
+//  Copyright © 2018年 xujiahui. All rights reserved.
+//
+
+#ifndef DjiPort_PCH_pch
+#define DjiPort_PCH_pch
+
+#import "StringText.h"  // 数字、文案、推送通知 name、
+#import "ColorImageSize.h" //适配尺寸、项目颜色、图片、固定大小
+
+///         --app 测试版1。0不是
+#define TestingYES1NO0 0
+
+
+#pragma mark//////////////--------- 三方
+///腾讯 Bugly
+#define BuglyAppID @"0d4db4a20c"
+#pragma mark////////--------代码段
+
+#define STATEBAR_FRAME  [UIApplication sharedApplication].statusBarFrame
+#define WeakSelf  __weak typeof(self) weakSelf = self
+#define UserDefaule_stand [NSUserDefaults standardUserDefaults]
+
+
+#define GetUserToken [[NSUserDefaults standardUserDefaults]objectForKey:@"Token"]
+#define SetUserToken(token) [[NSUserDefaults standardUserDefaults]setObject:token forKey:@"Token"]
+#define UserModelonline [UserModel shareUserModel]
+#define USER_MODEL_KEY @"UserModelonline"
+#define AllWeakSelf __weak typeof(self) weakSelf = self;
+#define mapspaceNSKeyed [MapSpace shareMapSpace]
+
+#pragma mark//--------------------------------------------------- 引用文件
+#import "UIViewPopAlert.h"
+#import "myLabel.h"
+#import "myButton.h"
+#import "UIColor+Hex.h"
+#import "RootViewController.h"
+#import "MBProgressHUD+Extension.h"
+#import "MBProgressHUD.h"
+#import "FamilyNavigationController.h"
+#import <MJRefresh.h>
+#import "UIViewExt.h"
+#pragma mark/////--------------------------------    接口
+//// 测试环境     生产
+//#define onlineFaceCN    @"http://app"
+//
+
+//#define GetAppteGet @"" onlineFaceCN"/ap"
+
+//
+#endif /* DjiPort_PCH_pch */
